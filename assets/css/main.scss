@@ -37,6 +37,21 @@ body {
     size: 100%;
     family: $primary-font; // variables inside partials > _variables.scss
   }
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* sticky footer: http://stackoverflow.com/a/12253099 */
+#main-wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+footer {
+    height: 100%;
+    position: relative;
+    width: 100%;
 }
 
 .wc-container {
