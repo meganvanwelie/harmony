@@ -162,7 +162,6 @@ em, i { font-style: italic; }
 // default
 
 a.default-anchor {
-
   text-decoration: none;
   border-bottom: 1px solid transparent;
   color: $base-08;
@@ -196,7 +195,8 @@ header.main-header, footer.main-footer {
 
 header.main-header {
   color: $base-00;
-  border-top: 5px $base-00 solid;
+  border-image: url("./images/Wallpaper_group-cm-4-small.jpg") 30 30 repeat;
+  border-top: 15px transparent solid;                   // header border line
 
   h1, h2 { text-align: center; color: inherit;}
   a {
@@ -241,6 +241,8 @@ header.main-header {
 footer.main-footer {
   background-color: $base-00;
   color: $base-07;
+  border-image: url("./images/Wallpaper_group-cm-4-small.jpg") 30 30 repeat;
+  border-bottom: 15px transparent solid;
   .column {
     float:left;
     @include column(1);
@@ -291,7 +293,7 @@ footer.main-footer {
   li {
     display:inline-block;
   }
-  li > a {
+  li > a {                  // social media icon configuration
     width: 32px;
     height: 32px;
     background: $base-07;
@@ -500,25 +502,26 @@ body.theme-base-01 {
   }
 }
 
+// Custom theme
 body.theme-custom {
   a {
     @extend .default-anchor;
   }
 
   footer.main-footer {
-    background-color: $base-01;
-    color: $base-07;
+    background-color: $base-01;     // background color
+    color: $base-07;                // link title color
   }
 
   header.main-header {
-    color: $base-01;
+    color: $base-01;        // title color
     ul li {
-      color: $base-08;
+      color: $base-08;      // link colors
     }
   }
 
   div.page-content {
-    h1, h2, h3, h4, h5, h6 { color: $base-01; }
+    h1, h2, h3, h4, h5, h6 { color: $base-01; } // main header color
   }
 }
 
