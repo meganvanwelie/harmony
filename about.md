@@ -4,24 +4,21 @@ title: About me
 permalink: /about/
 ---
 
-Hi, I am Gayan Virajith, a developer (who works on the web) based on Sri Lanka. 
-Graduated from the University College Dublin (National University of Ireland). 
+Hi, I'm Megan. I'm a software developer currently living in Boston, MA.
+I have a BS in electrical and computer engineering from WPI and a
+MS in computer science from Tufts University. I've recently branched into
+the world of visual computing, and I'm excited to continue exploring the
+field and developing shareable experiences.
 
-I am Working for [template-factory.nl][tf] also known as [Mearch ICT][m].
-Prefer to serve with Php and Ruby based stacks and also love to work 
-on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
+Aside from programming, I spend my free time knitting, listening to music,
+and enjoying the company of my amazing family and friends.
 
 ### Contact me
 
-Find me on [Google+][google] / [Github][github] / [Twitter][Twitter] or just say `Hello` at 
-[gayanvirajith@gmail.com](gayanvirajith@gmail.com).
+Find me on [Github][github] / [Twitter][Twitter] or say `Hello` at
+[megan.van.welie@gmail.com][email].
 
 
-[tf]: http://template-factory.nl
-[m]: http://mearch.com
-[pw]: http://processwire.com
-[pwf]: http://processwire.com/talk
-[jekyll]: http://jekyllrb.com
-[github]: https://github.com/gayanvirajith
-[google]: https://plus.google.com/+GayanVirajith
-[twitter]: https://twitter.com/gayanvirajith
+[github]: https://github.com/meganvanwelie
+[twitter]: https://twitter.com/femalehewmon
+[email]: mailto:megan.van.welie@gmail.com
