@@ -19,7 +19,7 @@ harmony:
   # in your feed.xml site description.
   meta_description: > #
    Personal site of Megan Van Welie, a software engineer specializing in visual computing.
-  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
+  basetheme: theme-custom
   author: # Author details
     name: Megan Van Welie
     email: meganvanwelie@gmail.com
